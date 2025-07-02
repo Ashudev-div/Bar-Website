@@ -149,8 +149,24 @@ body{background: #191970;
 }
 
 #name .line{
+
     height: 15px;
     width:645px;
     background: yellow;
     margin-top:25px;
 }
+
+/* responsivenes */
+
+@media (max-width: 768px) {
+  #menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu .items {
+    width: 90%;
+  }
+}
+
+
