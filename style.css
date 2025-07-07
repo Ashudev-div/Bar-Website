@@ -169,4 +169,10 @@ body{background: #191970;
   }
 }
 
+@media (max-width: 1288px) {
+    #firstcol{
+        flex-direction: column;
+        align-items: center;
+    } 
+}
 
